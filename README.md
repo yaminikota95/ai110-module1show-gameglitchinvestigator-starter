@@ -36,6 +36,7 @@ It wrote the code, ran away, and now the game is unplayable.
 8	New game handler	New game used hardcoded randint(1, 100) instead of the selected difficulty's range
 9	New game handler	status and history were not reset on new game, blocking all future guesses via st.stop()
 10	parse_guess	Guesses outside the valid range were accepted as valid
+
 - Fixes Applied
 
 Corrected Hard difficulty range to 1–500
